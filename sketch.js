@@ -26,7 +26,7 @@ function setup(){
 
 function draw() {
   background("blue");
-  sea.velocityX = 5;
+  sea.velocityX = -5;
 
   if(sea.x < 400 ){
     sea.x = sea.width / 8;
